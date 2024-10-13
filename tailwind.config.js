@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       colors:{
         color: 'rgba(255, 193, 7, 1)',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('./images/banner_1.png')",
       }
     },
   },

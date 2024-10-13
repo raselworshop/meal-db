@@ -24,16 +24,63 @@
             colors: {
             clifford: '#da373d',
             color: 'rgba(255, 193, 7, 1)',
-            }
+            },
+            backgroundImage: {
+            'hero-pattern': "url('./images/banner_1.png')",
+        }
         }
         }
     }
     </script>
     </head>
-<body>
-    <h1 class="font-popins text-5xl text-color">hi dear</h1>
-    <p class="font-popins bg-color">how about you</p>
-    <h2>I am fine whats goiing on?</h2>
+<body class="font-popins">
+    <!-- header start -->
+    <header>
+        <nav class="w-11/12 mx-auto">
+            <div class="my-5 flex justify-between">
+                <div>
+                    <h2 class="font-popins font-bold text-2xl">Testy Hut</h2>
+                </div>
+                <div>
+                    <button class="font-popins btn text-xl font-bold bg-color">Sign Up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+    <!-- main section start -->
+    <main>
+        <section class="bg-hero-pattern object-cover bg-no-repeat my-14 relative">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="w-11/12 mx-auto py-24 relative z-10">
+                <div class="relative text-white flex justify-center items-center flex-col p-5 brightness-100">
+                    <div class="flex flex-col items-center justify-center text-white my-5">
+                        <h1 class="text-3xl md:text-5xl lg:text-7xl font-popins font-bold text-center mb-5">Taste Our Delicious <br> Best Foods</h1>
+                        <p class="mb-5 text-lg text-center text-gray-100">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humou.</p>
+                    </div>
+                    <div class="mb-5">
+                        <label class="sm:input-xs md:input-md lg:input input-bordered flex items-center gap-2">
+                            <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                            fill="currentColor"
+                            class="h-4 w-4 opacity-70">
+                            <path
+                              fill-rule="evenodd"
+                              d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                              clip-rule="evenodd" />
+                            </svg>
+                            <input type="text" class="grow" placeholder="Search" />
+                            <button class="font-popins btn text-xl font-bold bg-color -mr-5">Search</button>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main section end -->
+    <!-- footer section start -->
+    <footer></footer>
 
     <script src="./js/main.js"></script>
 </body>
